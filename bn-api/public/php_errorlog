@@ -1,0 +1,635 @@
+[05-Dec-2014 01:14:24 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 8
+[05-Dec-2014 01:14:24 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 8
+[05-Dec-2014 01:14:24 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 8
+[05-Dec-2014 01:14:24 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 8
+[05-Dec-2014 01:14:44 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[05-Dec-2014 01:14:45 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[05-Dec-2014 01:14:45 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[05-Dec-2014 01:14:45 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[05-Dec-2014 09:50:46 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[05-Dec-2014 13:40:12 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[06-Dec-2014 10:19:54 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[09-Dec-2014 09:51:19 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 14:56:23 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 14:56:24 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 14:56:43 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 14:56:43 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 14:56:44 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 14:56:44 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 14:56:44 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 14:56:44 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 14:56:44 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 14:56:44 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 14:56:53 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 14:57:15 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 14:59:28 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 14:59:38 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 14:59:56 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 14:59:57 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:00:31 Europe/Sofia] PHP Fatal error:  Class 'Core' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:00:32 Europe/Sofia] PHP Fatal error:  Class 'Core' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:00:37 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:00:38 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:00:55 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:00:56 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:00:56 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:00:56 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:01:07 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:01:08 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:01:33 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:01:33 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:01:34 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:01:34 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:01:34 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:01:34 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:01:35 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:01:35 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:01:35 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/public/index.php on line 4
+[10-Dec-2014 15:02:35 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:02:35 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:02:36 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:02:51 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:02:51 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:02:51 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:02:57 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required 'routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:02:57 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required 'routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:02:57 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required 'routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:02:57 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required 'routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:02:58 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required 'routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:03:18 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:03:19 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:03:19 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:03:19 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:03:20 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:03:28 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:03:28 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:03:28 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:03:28 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:03:33 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:03:45 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:03:46 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:04:08 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:04:56 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:04:57 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:04:57 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:04:57 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:04:57 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:04:58 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:05:04 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:05:05 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:05:05 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:05:05 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:05:05 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:05:18 Europe/Sofia] PHP Fatal error:  require(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:05:18 Europe/Sofia] PHP Fatal error:  require(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:05:19 Europe/Sofia] PHP Fatal error:  require(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:05:19 Europe/Sofia] PHP Fatal error:  require(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:05:20 Europe/Sofia] PHP Fatal error:  require(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:06:00 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:06:01 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:09:22 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../routes.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 9
+[10-Dec-2014 15:16:04 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Controller.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 8
+[10-Dec-2014 15:16:04 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Controller.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 8
+[10-Dec-2014 15:16:25 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Controller.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 12
+[10-Dec-2014 15:16:26 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Controller.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 12
+[10-Dec-2014 15:16:26 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Controller.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 12
+[10-Dec-2014 15:16:26 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Controller.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 12
+[10-Dec-2014 15:16:26 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Controller.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 12
+[10-Dec-2014 15:16:26 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Controller.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 12
+[10-Dec-2014 15:16:26 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Controller.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 12
+[10-Dec-2014 15:16:35 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Controller.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 8
+[10-Dec-2014 15:16:36 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Controller.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 8
+[10-Dec-2014 15:16:36 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Controller.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 8
+[10-Dec-2014 15:17:55 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Controller.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 8
+[10-Dec-2014 15:17:57 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../Controller.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 8
+[10-Dec-2014 15:29:52 Europe/Sofia] PHP Fatal error:  Call to undefined function Core\is_empty() in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 13
+[10-Dec-2014 15:29:53 Europe/Sofia] PHP Fatal error:  Call to undefined function Core\is_empty() in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 13
+[10-Dec-2014 18:08:04 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../app/config/dbConfig.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/public/index.php on line 2
+[10-Dec-2014 18:08:19 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:08:49 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:08:51 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:08:51 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:08:51 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:08:51 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:08:54 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:08:54 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:13:23 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:13:44 Europe/Sofia] PHP Fatal error:  Class 'Core\User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:13:44 Europe/Sofia] PHP Fatal error:  Class 'Core\User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:15:30 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:15:31 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:15:31 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:15:31 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:15:31 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:18:34 Europe/Sofia] PHP Fatal error:  Class 'Core\Controller' not found in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 59
+[10-Dec-2014 18:18:34 Europe/Sofia] PHP Fatal error:  Class 'Core\Controller' not found in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 59
+[10-Dec-2014 18:18:35 Europe/Sofia] PHP Fatal error:  Class 'Core\Controller' not found in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 59
+[10-Dec-2014 18:18:35 Europe/Sofia] PHP Fatal error:  Class 'Core\Controller' not found in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 59
+[10-Dec-2014 18:18:42 Europe/Sofia] PHP Fatal error:  Class 'Core\Controller' not found in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 59
+[10-Dec-2014 18:18:42 Europe/Sofia] PHP Fatal error:  Class 'Core\Controller' not found in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 59
+[10-Dec-2014 18:18:42 Europe/Sofia] PHP Fatal error:  Class 'Core\Controller' not found in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 59
+[10-Dec-2014 18:19:05 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:19:05 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:19:06 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:19:06 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:19:06 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:19:43 Europe/Sofia] PHP Parse error:  syntax error, unexpected ';' in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 89
+[10-Dec-2014 18:19:43 Europe/Sofia] PHP Parse error:  syntax error, unexpected ';' in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 89
+[10-Dec-2014 18:19:43 Europe/Sofia] PHP Parse error:  syntax error, unexpected ';' in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 89
+[10-Dec-2014 18:19:57 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:19:58 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:20:13 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:20:14 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:20:14 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:20:56 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:21:06 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:21:07 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:21:08 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:21:20 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:21:58 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:23:29 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:23:41 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:24:12 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:25:17 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:25:18 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:25:37 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:25:38 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:25:39 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:25:53 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:25:54 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:26:00 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:26:00 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:26:01 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:26:01 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:26:06 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:26:06 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:26:07 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:26:07 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:26:10 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:26:10 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:26:11 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:28:48 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:28:49 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:28:49 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:28:49 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:28:50 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:29:07 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:29:08 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:29:08 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:30:03 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:30:04 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:30:04 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:30:04 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:30:07 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:30:12 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:30:13 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:30:13 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:30:17 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:36:31 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:36:32 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:36:33 Europe/Sofia] PHP Fatal error:  Class 'User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[10-Dec-2014 18:43:25 Europe/Sofia] PHP Fatal error:  Class 'Controller' not found in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 59
+[10-Dec-2014 18:43:26 Europe/Sofia] PHP Fatal error:  Class 'Controller' not found in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 59
+[10-Dec-2014 18:43:26 Europe/Sofia] PHP Fatal error:  Class 'Controller' not found in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 59
+[10-Dec-2014 18:44:14 Europe/Sofia] PHP Fatal error:  Class 'Core\User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:44:15 Europe/Sofia] PHP Fatal error:  Class 'Core\User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:44:15 Europe/Sofia] PHP Fatal error:  Class 'Core\User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:44:15 Europe/Sofia] PHP Fatal error:  Class 'Core\User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:44:16 Europe/Sofia] PHP Fatal error:  Class 'Core\User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[10-Dec-2014 18:44:16 Europe/Sofia] PHP Fatal error:  Class 'Core\User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[11-Dec-2014 09:43:35 Europe/Sofia] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[11-Dec-2014 09:43:36 Europe/Sofia] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[11-Dec-2014 09:43:36 Europe/Sofia] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[11-Dec-2014 09:43:36 Europe/Sofia] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 10
+[11-Dec-2014 10:18:12 Europe/Sofia] PHP Fatal error:  Class 'App' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[11-Dec-2014 18:03:00 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:16
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 16
+[11-Dec-2014 18:04:39 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:16
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 16
+[11-Dec-2014 18:05:42 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:16
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 16
+[11-Dec-2014 18:05:43 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:16
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 16
+[11-Dec-2014 18:05:43 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:16
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 16
+[11-Dec-2014 18:05:43 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:16
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 16
+[11-Dec-2014 18:05:43 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:16
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 16
+[11-Dec-2014 18:05:43 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:16
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 16
+[11-Dec-2014 18:05:44 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:16
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 16
+[11-Dec-2014 18:05:44 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:16
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 16
+[11-Dec-2014 18:05:50 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:16
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 16
+[11-Dec-2014 18:05:52 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:16
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 16
+[11-Dec-2014 18:06:08 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:06:09 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:11:41 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:11:42 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:11:42 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:11:42 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:18:17 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:18:18 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:18:18 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:18:19 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:18:24 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:18:24 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:18:24 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:19:43 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(66): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:19:44 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(66): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:19:44 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(66): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:19:44 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(66): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:19:51 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:19:51 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Error' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(10): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:22:22 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Exception' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(9): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:22:23 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Exception' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(65): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(33): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(9): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:32:54 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Exception' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(66): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(9): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:32:55 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Exception' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(66): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(9): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:32:55 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Exception' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(66): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(9): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:32:55 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Exception' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(66): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(9): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:32:56 Europe/Sofia] PHP Fatal error:  Uncaught exception 'Exception' with message 'Test ecxeption!' in /home/ventsii/public_html/dev/bn-api/app/Controller.php:15
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/App.php(66): Controller->test()
+#1 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#2 /home/ventsii/public_html/dev/bn-api/public/index.php(9): Core\App->__construct()
+#3 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 15
+[11-Dec-2014 18:44:39 Europe/Sofia] PHP Fatal error:  Cannot access protected property Exception::$message in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 68
+[11-Dec-2014 18:44:40 Europe/Sofia] PHP Fatal error:  Cannot access protected property Exception::$message in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 68
+[11-Dec-2014 19:04:39 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../app/requires.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/public/index.php on line 2
+[11-Dec-2014 19:04:40 Europe/Sofia] PHP Fatal error:  require_once(): Failed opening required '../app/requires.php' (include_path='.:/usr/local/php54/pear') in /home/ventsii/public_html/dev/bn-api/public/index.php on line 2
+[11-Dec-2014 19:43:28 Europe/Sofia] PHP Fatal error:  Class 'Core\DB' not found in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 131
+[11-Dec-2014 19:44:06 Europe/Sofia] PHP Fatal error:  Class 'Core\PDO' not found in /home/ventsii/public_html/dev/bn-api/app/core/DB.php on line 14
+[11-Dec-2014 19:44:30 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ventsii_dev'@'localhost' (using password: YES)' in /home/ventsii/public_html/dev/bn-api/app/core/DB.php:14
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(14): PDO->__construct('mysql:host=loca...', 'ventsii_dev', 'smenisiparolata...')
+#1 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(28): Core\DB->__construct()
+#2 /home/ventsii/public_html/dev/bn-api/app/core/App.php(131): Core\DB::init()
+#3 /home/ventsii/public_html/dev/bn-api/app/core/App.php(64): Core\App->loadDB()
+#4 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#5 /home/ventsii/public_html/dev/bn-api/public/index.php(4): Core\App->__construct()
+#6 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/core/DB.php on line 14
+[11-Dec-2014 19:44:31 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ventsii_dev'@'localhost' (using password: YES)' in /home/ventsii/public_html/dev/bn-api/app/core/DB.php:14
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(14): PDO->__construct('mysql:host=loca...', 'ventsii_dev', 'smenisiparolata...')
+#1 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(28): Core\DB->__construct()
+#2 /home/ventsii/public_html/dev/bn-api/app/core/App.php(131): Core\DB::init()
+#3 /home/ventsii/public_html/dev/bn-api/app/core/App.php(64): Core\App->loadDB()
+#4 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#5 /home/ventsii/public_html/dev/bn-api/public/index.php(4): Core\App->__construct()
+#6 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/core/DB.php on line 14
+[11-Dec-2014 19:46:06 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ventsii_dev'@'localhost' (using password: YES)' in /home/ventsii/public_html/dev/bn-api/app/core/DB.php:14
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(14): PDO->__construct('mysql:host=loca...', 'ventsii_dev', 'smenisiparolata...')
+#1 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(28): Core\DB->__construct()
+#2 /home/ventsii/public_html/dev/bn-api/app/core/App.php(131): Core\DB::init()
+#3 /home/ventsii/public_html/dev/bn-api/app/core/App.php(64): Core\App->loadDB()
+#4 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#5 /home/ventsii/public_html/dev/bn-api/public/index.php(4): Core\App->__construct()
+#6 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/core/DB.php on line 14
+[11-Dec-2014 19:46:07 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ventsii_dev'@'localhost' (using password: YES)' in /home/ventsii/public_html/dev/bn-api/app/core/DB.php:14
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(14): PDO->__construct('mysql:host=loca...', 'ventsii_dev', 'smenisiparolata...')
+#1 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(28): Core\DB->__construct()
+#2 /home/ventsii/public_html/dev/bn-api/app/core/App.php(131): Core\DB::init()
+#3 /home/ventsii/public_html/dev/bn-api/app/core/App.php(64): Core\App->loadDB()
+#4 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#5 /home/ventsii/public_html/dev/bn-api/public/index.php(4): Core\App->__construct()
+#6 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/core/DB.php on line 14
+[11-Dec-2014 19:47:46 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ventsii_dev'@'localhost' (using password: YES)' in /home/ventsii/public_html/dev/bn-api/app/core/DB.php:14
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(14): PDO->__construct('mysql:host=loca...', 'ventsii_dev', 'smenisiparolata...')
+#1 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(29): Core\DB->__construct()
+#2 /home/ventsii/public_html/dev/bn-api/app/core/App.php(131): Core\DB::init()
+#3 /home/ventsii/public_html/dev/bn-api/app/core/App.php(64): Core\App->loadDB()
+#4 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#5 /home/ventsii/public_html/dev/bn-api/public/index.php(4): Core\App->__construct()
+#6 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/core/DB.php on line 14
+[11-Dec-2014 19:47:46 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ventsii_dev'@'localhost' (using password: YES)' in /home/ventsii/public_html/dev/bn-api/app/core/DB.php:14
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(14): PDO->__construct('mysql:host=loca...', 'ventsii_dev', 'smenisiparolata...')
+#1 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(29): Core\DB->__construct()
+#2 /home/ventsii/public_html/dev/bn-api/app/core/App.php(131): Core\DB::init()
+#3 /home/ventsii/public_html/dev/bn-api/app/core/App.php(64): Core\App->loadDB()
+#4 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#5 /home/ventsii/public_html/dev/bn-api/public/index.php(4): Core\App->__construct()
+#6 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/core/DB.php on line 14
+[11-Dec-2014 19:47:47 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ventsii_dev'@'localhost' (using password: YES)' in /home/ventsii/public_html/dev/bn-api/app/core/DB.php:14
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(14): PDO->__construct('mysql:host=loca...', 'ventsii_dev', 'smenisiparolata...')
+#1 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(29): Core\DB->__construct()
+#2 /home/ventsii/public_html/dev/bn-api/app/core/App.php(131): Core\DB::init()
+#3 /home/ventsii/public_html/dev/bn-api/app/core/App.php(64): Core\App->loadDB()
+#4 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#5 /home/ventsii/public_html/dev/bn-api/public/index.php(4): Core\App->__construct()
+#6 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/core/DB.php on line 14
+[11-Dec-2014 19:47:47 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ventsii_dev'@'localhost' (using password: YES)' in /home/ventsii/public_html/dev/bn-api/app/core/DB.php:14
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(14): PDO->__construct('mysql:host=loca...', 'ventsii_dev', 'smenisiparolata...')
+#1 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(29): Core\DB->__construct()
+#2 /home/ventsii/public_html/dev/bn-api/app/core/App.php(131): Core\DB::init()
+#3 /home/ventsii/public_html/dev/bn-api/app/core/App.php(64): Core\App->loadDB()
+#4 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#5 /home/ventsii/public_html/dev/bn-api/public/index.php(4): Core\App->__construct()
+#6 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/core/DB.php on line 14
+[11-Dec-2014 19:47:47 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ventsii_dev'@'localhost' (using password: YES)' in /home/ventsii/public_html/dev/bn-api/app/core/DB.php:14
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(14): PDO->__construct('mysql:host=loca...', 'ventsii_dev', 'smenisiparolata...')
+#1 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(29): Core\DB->__construct()
+#2 /home/ventsii/public_html/dev/bn-api/app/core/App.php(131): Core\DB::init()
+#3 /home/ventsii/public_html/dev/bn-api/app/core/App.php(64): Core\App->loadDB()
+#4 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#5 /home/ventsii/public_html/dev/bn-api/public/index.php(4): Core\App->__construct()
+#6 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/core/DB.php on line 14
+[11-Dec-2014 19:47:47 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ventsii_dev'@'localhost' (using password: YES)' in /home/ventsii/public_html/dev/bn-api/app/core/DB.php:14
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(14): PDO->__construct('mysql:host=loca...', 'ventsii_dev', 'smenisiparolata...')
+#1 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(29): Core\DB->__construct()
+#2 /home/ventsii/public_html/dev/bn-api/app/core/App.php(131): Core\DB::init()
+#3 /home/ventsii/public_html/dev/bn-api/app/core/App.php(64): Core\App->loadDB()
+#4 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#5 /home/ventsii/public_html/dev/bn-api/public/index.php(4): Core\App->__construct()
+#6 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/core/DB.php on line 14
+[11-Dec-2014 19:48:32 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ventsii_dev'@'localhost' (using password: YES)' in /home/ventsii/public_html/dev/bn-api/app/core/DB.php:14
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(14): PDO->__construct('mysql:host=loca...', 'ventsii_dev', 'smenisiparolata...')
+#1 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(28): Core\DB->__construct()
+#2 /home/ventsii/public_html/dev/bn-api/app/core/App.php(131): Core\DB::init()
+#3 /home/ventsii/public_html/dev/bn-api/app/core/App.php(64): Core\App->loadDB()
+#4 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#5 /home/ventsii/public_html/dev/bn-api/public/index.php(4): Core\App->__construct()
+#6 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/core/DB.php on line 14
+[11-Dec-2014 19:48:33 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ventsii_dev'@'localhost' (using password: YES)' in /home/ventsii/public_html/dev/bn-api/app/core/DB.php:14
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(14): PDO->__construct('mysql:host=loca...', 'ventsii_dev', 'smenisiparolata...')
+#1 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(28): Core\DB->__construct()
+#2 /home/ventsii/public_html/dev/bn-api/app/core/App.php(131): Core\DB::init()
+#3 /home/ventsii/public_html/dev/bn-api/app/core/App.php(64): Core\App->loadDB()
+#4 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#5 /home/ventsii/public_html/dev/bn-api/public/index.php(4): Core\App->__construct()
+#6 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/core/DB.php on line 14
+[11-Dec-2014 19:48:34 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ventsii_dev'@'localhost' (using password: YES)' in /home/ventsii/public_html/dev/bn-api/app/core/DB.php:14
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(14): PDO->__construct('mysql:host=loca...', 'ventsii_dev', 'smenisiparolata...')
+#1 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(28): Core\DB->__construct()
+#2 /home/ventsii/public_html/dev/bn-api/app/core/App.php(131): Core\DB::init()
+#3 /home/ventsii/public_html/dev/bn-api/app/core/App.php(64): Core\App->loadDB()
+#4 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#5 /home/ventsii/public_html/dev/bn-api/public/index.php(4): Core\App->__construct()
+#6 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/core/DB.php on line 14
+[11-Dec-2014 19:48:34 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ventsii_dev'@'localhost' (using password: YES)' in /home/ventsii/public_html/dev/bn-api/app/core/DB.php:14
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(14): PDO->__construct('mysql:host=loca...', 'ventsii_dev', 'smenisiparolata...')
+#1 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(28): Core\DB->__construct()
+#2 /home/ventsii/public_html/dev/bn-api/app/core/App.php(131): Core\DB::init()
+#3 /home/ventsii/public_html/dev/bn-api/app/core/App.php(64): Core\App->loadDB()
+#4 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#5 /home/ventsii/public_html/dev/bn-api/public/index.php(4): Core\App->__construct()
+#6 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/core/DB.php on line 14
+[11-Dec-2014 19:48:34 Europe/Sofia] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'ventsii_dev'@'localhost' (using password: YES)' in /home/ventsii/public_html/dev/bn-api/app/core/DB.php:14
+Stack trace:
+#0 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(14): PDO->__construct('mysql:host=loca...', 'ventsii_dev', 'smenisiparolata...')
+#1 /home/ventsii/public_html/dev/bn-api/app/core/DB.php(28): Core\DB->__construct()
+#2 /home/ventsii/public_html/dev/bn-api/app/core/App.php(131): Core\DB::init()
+#3 /home/ventsii/public_html/dev/bn-api/app/core/App.php(64): Core\App->loadDB()
+#4 /home/ventsii/public_html/dev/bn-api/app/core/App.php(34): Core\App->loadController('test')
+#5 /home/ventsii/public_html/dev/bn-api/public/index.php(4): Core\App->__construct()
+#6 {main}
+  thrown in /home/ventsii/public_html/dev/bn-api/app/core/DB.php on line 14
+[11-Dec-2014 20:02:34 Europe/Sofia] PHP Parse error:  syntax error, unexpected '=' in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 64
+[11-Dec-2014 20:02:35 Europe/Sofia] PHP Parse error:  syntax error, unexpected '=' in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 64
+[11-Dec-2014 20:09:42 Europe/Sofia] PHP Fatal error:  Class 'Controller' not found in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 62
+[11-Dec-2014 20:09:43 Europe/Sofia] PHP Fatal error:  Class 'Controller' not found in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 62
+[11-Dec-2014 20:09:43 Europe/Sofia] PHP Fatal error:  Class 'Controller' not found in /home/ventsii/public_html/dev/bn-api/app/core/App.php on line 62
+[11-Dec-2014 20:10:13 Europe/Sofia] PHP Fatal error:  Class 'Core\Core\App' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 17
+[11-Dec-2014 20:10:15 Europe/Sofia] PHP Fatal error:  Class 'Core\Core\App' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 17
+[11-Dec-2014 20:10:40 Europe/Sofia] PHP Fatal error:  Class 'Core\User' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 11
+[11-Dec-2014 20:14:13 Europe/Sofia] PHP Fatal error:  Class 'Core\PDO' not found in /home/ventsii/public_html/dev/bn-api/app/Controller.php on line 19
