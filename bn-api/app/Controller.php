@@ -12,14 +12,16 @@ class Controller {
         $firstName = trim($_POST['firstName']);
         $lastName = trim($_POST['lastName']);
         $userBirthday = trim($_POST['userBirthday']);
-        if(empty($fbId)) {
+        $validator = new \Validator();
+        
+        if(!$validator->validateFbId($fbId)) {
             throw new \Exception('No facebook id!', 400);
         }
-        if(mb_strlen($firstName) < 2 || mb_strlen($firstName) > 40
-                || mb_strlen($lastName) < 2 || mb_strlen($lastName) > 40) {
+        
+        if(!$validator->validateName($firstName)|| !$validator->validateName($lastName)) {
             throw new \Exception('The name is not valid!', 400);
         }
-        if(!$this->validateDate($userBirthday)) {
+        if(!$validator->validateDate($userBirthday)) {
             throw new \Exception('Date is not valid!', 400);
         }
         $user = new \User();
@@ -50,11 +52,31 @@ class Controller {
     }
     
     public function setFriends() {
+        $fbId = trim($_POST['fbId']);
+        $friendsList = $_POST['friendsList'];
+        
+        if(!$validator->validateFbId($fbId)) {
+            throw new \Exception('No facebook id!', 400);
+        }
+        
+        $user = new \User();
+        $userId = $user->getUserId($fbId);
+        if($userId === FALSE) {
+            throw new \Exception('Invalid facebook user!', 402);
+        }
+        
+        if(!is_array($friendsList)) {
+            throw new \Exception('Invalid friends list!', 400);
+        }
+        
         
     }
     
-    public function validateDate($date) {
-        $d = \DateTime::createFromFormat('Y-m-d', $date);
-        return $d && $d->format('Y-m-d') == $date;
+    public function getFriends() {
+        
+    }
+    
+    public function updateGroup() {
+        
     }
 }

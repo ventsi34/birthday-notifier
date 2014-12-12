@@ -46,7 +46,7 @@ class User {
         return $result['user_id'];
     }
     
-    public function saveFriends($fbId, $friendsList) {
+    public function addFriends($fbId, $friendsList) {
         
     }
 }
