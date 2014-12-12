@@ -65,6 +65,12 @@ class App {
             $this->autoloader();
             try {
                 $controller->$methodName();
+            }catch (\PDOException $e) {
+                if(DEVELOPMENT_ENVIRONMENT){
+                    App::response($e->getMessage(), $e->getCode());
+                } else {
+                    App::response("Database error!");
+                }
             } catch (\Exception $e) {
                 App::response($e->getMessage(), $e->getCode());
             }
@@ -87,7 +93,6 @@ class App {
         } else {
             echo json_encode(array('msg'=>$response));
         }
-        exit();
     }
     
     /**
