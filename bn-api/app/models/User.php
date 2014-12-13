@@ -46,7 +46,55 @@ class User {
         return $result['user_id'];
     }
     
-    public function addFriends($fbId, $friendsList) {
-        
+    /**
+     * Add user friends from facebook
+     * 
+     * @param type $userId 
+     * @param type $friendsList Array with user friends
+     * @throws boolean  
+     */
+    public function addFriends($userId, $friendsList) {
+        $userFriends = $this->getFriends($userId);
+        if(empty($userFriends)){
+            try {
+                App::$db->beginTransaction();
+                    foreach($friendsList as $value) {
+                        $firstName = addslashes($value['firstName']);
+                        $lastName = addslashes($value['lastName']);
+                        $birthday = addslashes($value['birthday']);
+                        $userId = (int)$value['userId'];
+                        $validator = new \Validator();
+                        if(!$validator->validateName($firstName) || !$validator->validateName($lastName)) {
+                            continue;
+                        }
+                        $query = App::$db->prepare('INSERT INTO `friends`(`first_name`, `last_name`, `birthday`, `group_id`, `user_id`) '
+                                . 'VALUES ("'. $firstName .'", "'. $lastName .'", "'. $birthday .'", 1, "'. $userId .'")');
+                        $query->execute();
+                    }
+                App::$db->commit();
+            } catch (\PDOException $ex) {
+                App::$db->rollBack();
+                throw $ex;
+            }
+        } else {
+            
+        }
+    }
+    
+    /**
+     * Return user friends list
+     * 
+     * @param int $userId User id
+     * @return array List with user friends
+     */
+    public function getFriends($userId) {
+        $userId = (int)$userId;
+        $query = App::$db->query('SELECT * FROM `friends` WHERE `user_id` = "'.$userId.'"');
+        $query->setFetchMode(PDO::FETCH_ASSOC);
+        $list = array();
+        while($result = $query->fetch()){
+            array_push($list, $result);
+        }
+        return $list;
     }
 }

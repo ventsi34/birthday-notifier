@@ -47,8 +47,20 @@ class Controller {
         }*/
         //$user = new \User();
         //var_dump($user->checkRegistration('asdasf23424tda12'));
-        echo 'test';
+        //echo 'test';
         //echo date('Y-m-d');
+        $testFriends[] = array('firstName' => "Gosho", 'lastName' => "Peshev", 'birthday'=>"", 'userId' => 4);
+        $testFriends[] = array('firstName' => "Niki", 'lastName' => "Seksa", 'birthday'=>"1992-12-3", 'userId' => 4);
+        /*$user = new \User();
+        $user->addFriends(2, $testFriends);*/
+        
+        $fbArray[] = array('firstName' => "Gosho", 'lastName' => "Peshev", 'birthday'=>"");
+        $fbArray[] = array('firstName' => "Niki", 'lastName' => "Seksa", 'birthday'=>"1992-12-3");
+        $fbArray[] = array('firstName' => "Kiro", 'lastName' => "Maxa", 'birthday'=>"1992-08-10");
+        //var_dump($testFriends);
+        //var_dump($fbArray);
+        var_dump(array_merge(array_diff($testFriends,$fbArray),array_diff($fbArray,$testFriends)));
+        
     }
     
     public function setFriends() {
@@ -58,18 +70,15 @@ class Controller {
         if(!$validator->validateFbId($fbId)) {
             throw new \Exception('No facebook id!', 400);
         }
-        
         $user = new \User();
         $userId = $user->getUserId($fbId);
         if($userId === FALSE) {
             throw new \Exception('Invalid facebook user!', 402);
         }
-        
         if(!is_array($friendsList)) {
             throw new \Exception('Invalid friends list!', 400);
         }
-        
-        
+        $user->addFriends($userId, $friendsList);
     }
     
     public function getFriends() {
