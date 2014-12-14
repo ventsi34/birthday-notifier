@@ -88,13 +88,38 @@ class User {
      * @return array List with user friends
      */
     public function getFriends($userId) {
-        $userId = (int)$userId;
-        $query = App::$db->query('SELECT * FROM `friends` WHERE `user_id` = "'.$userId.'"');
+        $query = App::$db->query('SELECT * FROM `friends` '
+                . 'WHERE `user_id` = "'.(int)$userId.'"');
         $query->setFetchMode(PDO::FETCH_ASSOC);
         $list = array();
         while($result = $query->fetch()){
             array_push($list, $result);
         }
         return $list;
+    }
+    
+    public function setFriendToGroup($friendId, $groupId) {
+        $query = App::$db->prepare('UPDATE `friends` '
+                . 'SET `group_id`="'.(int)$groupId.'" '
+                . 'WHERE `friend_id` = "'.(int)$friendId.'"');
+        $rs = $query->execute();
+        if (!$rs) {
+            return FALSE;
+        }
+        return TRUE;
+    }
+    
+    public function isMyFriend($userId, $friendId) {
+        $query = App::$db->query('SELECT COUNT(*) as `cnt` '
+                . 'FROM `friends` '
+                . 'WHERE '
+                    . '`friend_id` = "'.(int)$friendId.'" '
+                    . 'AND `user_id` = "'.(int)$userId.'" ');
+        $query->setFetchMode(PDO::FETCH_ASSOC);
+        $result = $query->fetch();
+        if($result['cnt'] != 1){
+            return FALSE;
+        }
+        return TRUE;
     }
 }
