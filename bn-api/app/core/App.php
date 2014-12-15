@@ -9,10 +9,11 @@ class App {
     
     public static $db = NULL;
     public static $urlPath = NULL;
+    public static $requestBody = NULL;
 
     public function __construct() {
         if(!empty($_GET['action'])){
-            $this->readGetParams();
+            $this->readParams();
             $method = $_SERVER['REQUEST_METHOD'];
             switch ($method) {
                 case 'PUT':
@@ -109,7 +110,8 @@ class App {
     /**
      * Read url params
      */
-    private function readGetParams() {
+    private function readParams() {
+        self::$requestBody = json_decode(http_get_request_body(), true);
         $params = array();
         if(!empty($_GET['get'])) {
             $parts = explode('/', $_GET['get']);

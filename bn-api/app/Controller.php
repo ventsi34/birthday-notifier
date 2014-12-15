@@ -8,10 +8,10 @@ namespace Core;
 class Controller {
 
     public function registerUser() {
-        $fbId = trim($_POST['fbId']);
-        $firstName = trim($_POST['firstName']);
-        $lastName = trim($_POST['lastName']);
-        $userBirthday = trim($_POST['userBirthday']);
+        $fbId = trim(App::$requestBody['fbId']);
+        $firstName = trim(App::$requestBody['firstName']);
+        $lastName = trim(App::$requestBody['lastName']);
+        $userBirthday = trim(App::$requestBody['userBirthday']);
         $validator = new \Validator();
         
         if(!$validator->validateFbId($fbId)) {
@@ -65,8 +65,8 @@ class Controller {
     }
     
     public function setFriends() {
-        $fbId = trim($_POST['fbId']);
-        $friendsList = $_POST['friendsList'];
+        $fbId = trim(App::$requestBody['fbId']);
+        $friendsList = App::$requestBody['friendsList'];
         
         if(!$validator->validateFbId($fbId)) {
             throw new \Exception('No facebook id!', 400);
@@ -87,7 +87,25 @@ class Controller {
     }
     
     public function updateGroup() {
+        $fbId = App::$requestBody['fbId'];
+        $friendId = (int)App::$requestBody['friendId'];
+        $groupId = (int)App::$requestBody['groupId'];
+        $validator = new \Validator();
+        if(!$validator->validateFbId($fbId)) {
+            throw new \Exception('No facebook id!', 400);
+        }
+        $group = new \Group();
+        if(!$group->isValidGroupId($groupId)) {
+            throw new \Exception('Invalid group id!', 400);
+        }
         $user = new \User();
-        $user->isMyFriend();
+        $userId = $user->getUserId($fbId);
+        if(!$user->isMyFriend($userId, $friendId)) {
+            throw new \Exception('This user is not my friend!', 400);
+        }
+        if(!$user->setFriendToGroup($friendId, $groupId)) {
+            throw new \Exception('Somethings goes wrong!!', 400);
+        }
+        App::response(array('moved' => true), 201);
     }
 }
