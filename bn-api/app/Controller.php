@@ -63,7 +63,7 @@ class Controller {
         //var_dump($user->isMyFriend(4, 7));
         //var_dump($user->setFriendToGroup(72, 1));
     }
-    
+    //TODO
     public function setFriends() {
         $fbId = trim(App::$requestBody['fbId']);
         $friendsList = App::$requestBody['friendsList'];
@@ -83,7 +83,19 @@ class Controller {
     }
     
     public function getFriends() {
-        
+        $fbId = $_GET['fbId'];
+        $validator = new \Validator();
+        if(!$validator->validateFbId($fbId)) {
+            throw new \Exception('No facebook id!', 400);
+        }
+        $user = new \User();
+        $userId = $user->getUserId($fbId);
+        if($userId === FALSE) {
+            throw new \Exception('Can not find user id!', 400);
+        }
+        $friends = $user->getFriends($userId);
+        $friends = $user->orderFriendsByGroups($friends);
+        App::response($friends, 201);
     }
     
     public function updateGroup() {

@@ -88,8 +88,18 @@ class User {
      * @return array List with user friends
      */
     public function getFriends($userId) {
-        $query = App::$db->query('SELECT * FROM `friends` '
-                . 'WHERE `user_id` = "'.(int)$userId.'"');
+        $query = 'SELECT 
+                        `fr`.*,
+                        `g`.`group_name`
+                FROM 
+                        `friends` as `fr`
+                LEFT JOIN
+                        `groups` AS `g`
+                ON `g`.`group_id` = `fr`.`group_id`
+                WHERE 
+                        `user_id` = "'.(int)$userId.'"
+                ORDER BY `group_id`';
+        $query = App::$db->query($query);
         $query->setFetchMode(PDO::FETCH_ASSOC);
         $list = array();
         while($result = $query->fetch()){
@@ -121,5 +131,18 @@ class User {
             return FALSE;
         }
         return TRUE;
+    }
+    
+    public function orderFriendsByGroups($friendsList) {
+        $groupId = NULL;
+        $list = array();
+        foreach ($friendsList as $value) {
+            if($groupId == NULL || $groupId != $value['group_id']) {
+                $groupId = $value['group_id'];
+                $list[$groupId] = array();
+            }
+            array_push($list[$groupId], $value);
+        }
+        return $list;
     }
 }
