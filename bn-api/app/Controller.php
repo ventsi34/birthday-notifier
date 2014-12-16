@@ -66,7 +66,7 @@ class Controller {
     //TODO
     public function setFriends() {
         $fbId = trim(App::$requestBody['fbId']);
-        $friendsList = App::$requestBody['friendsList'];
+        $newFriendsList = App::$requestBody['friendsList'];
         
         if(!$validator->validateFbId($fbId)) {
             throw new \Exception('No facebook id!', 400);
@@ -76,10 +76,14 @@ class Controller {
         if($userId === FALSE) {
             throw new \Exception('Invalid facebook user!', 402);
         }
-        if(!is_array($friendsList)) {
+        if(!is_array($newFriendsList)) {
             throw new \Exception('Invalid friends list!', 400);
         }
-        $user->addFriends($userId, $friendsList);
+        die('PROCEDURE');
+        $friends = $user->getFriends($userId);
+        $diffFriends = $user->diffFriends($friends, $newFriendsList);
+        $user->addFriends($userId, $diffFriends);
+        //$user->addFriends($userId, $friendsList);
     }
     
     public function getFriends() {
