@@ -54,30 +54,26 @@ class User {
      * @throws boolean  
      */
     public function addFriends($userId, $friendsList) {
-        $userFriends = $this->getFriends($userId);
-        if(empty($userFriends)){
-            try {
-                App::$db->beginTransaction();
-                    foreach($friendsList as $value) {
-                        $firstName = addslashes($value['firstName']);
-                        $lastName = addslashes($value['lastName']);
-                        $birthday = addslashes($value['birthday']);
-                        $userId = (int)$value['userId'];
-                        $validator = new \Validator();
-                        if(!$validator->validateName($firstName) || !$validator->validateName($lastName)) {
-                            continue;
-                        }
-                        $query = App::$db->prepare('INSERT INTO `friends`(`first_name`, `last_name`, `birthday`, `group_id`, `user_id`) '
-                                . 'VALUES ("'. $firstName .'", "'. $lastName .'", "'. $birthday .'", 1, "'. $userId .'")');
-                        $query->execute();
+        try {
+            App::$db->beginTransaction();
+                foreach($friendsList as $value) {
+                    $fbId = addslashes($value['fbId']);
+                    $firstName = addslashes($value['firstName']);
+                    $lastName = addslashes($value['lastName']);
+                    $birthday = addslashes($value['birthday']);
+                    $validator = new \Validator();
+                    if(!$validator->validateName($firstName) || !$validator->validateName($lastName)) {
+                        continue;
                     }
-                App::$db->commit();
-            } catch (\PDOException $ex) {
-                App::$db->rollBack();
-                throw $ex;
-            }
-        } else {
-            
+                    $query = App::$db->prepare('REPLACE INTO `friends`(`fb_id`, `first_name`, `last_name`, `birthday`, `user_id`) '
+                            . 'VALUES ("'.$fbId.'", "'. $firstName .'", "'. $lastName .'", "'. $birthday .'", "'. (int)$userId .'")');
+                    $query->execute();
+                }
+            App::$db->commit();
+            return true;
+        } catch (\PDOException $ex) {
+            App::$db->rollBack();
+            throw $ex;
         }
     }
     
@@ -144,5 +140,28 @@ class User {
             array_push($list[$groupId], $value);
         }
         return $list;
+    }
+    
+    public function diffFriends($oldFriends, $newFriends) {
+        $different = array();
+        foreach ($newFriends as $newFriend) {
+            $flag = false;
+            $nameFlag = false;
+            foreach ($oldFriends as $oldFriend) {
+                if($oldFriend['fb_id'] == $newFriend['fbId']) {
+                    $flag = true;
+                    if($oldFriend['first_name'] != $newFriend['firstName'] || 
+                            $oldFriend['last_name'] != $newFriend['lastName'] ||
+                            $oldFriend['birthday'] != $newFriend['birthday']) {
+                        $flag = false;
+                    }
+                    break;
+                }
+            }
+            if(!$flag) {
+                $different[] = $newFriend;
+            }
+        }
+        return $different;
     }
 }

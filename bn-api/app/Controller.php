@@ -62,12 +62,30 @@ class Controller {
         //$user = new \User();
         //var_dump($user->isMyFriend(4, 7));
         //var_dump($user->setFriendToGroup(72, 1));
+        //OLD
+        /*$testFriends[] = array('first_name' => "Baba", "fb_id"=> "2", 'last_name' => "Kera", 'birthday'=>"", 'userId' => 4);
+        $testFriends[] = array('first_name' => "NikO", "fb_id"=> "24", 'last_name' => "Velinov", 'birthday'=>"1992-12-3", 'userId' => 4);
+        $testFriends[] = array('first_name' => "Maika", "fb_id"=> "25", 'last_name' => "Dimitrova", 'birthday'=>"1992-12-3", 'userId' => 4);
+        $testFriends[] = array('first_name' => "Rosen", "fb_id"=> "26", 'last_name' => "Dimitrov", 'birthday'=>"1992-12-3", 'userId' => 4);
+        $user = new \User();
+        //$testFriends = $user->getFriends(4);
+        //var_dump($testFriends);
+        $fbArray[] = array('firstName' => "Baba", "fbId"=> "2", 'lastName' => "Kera", 'birthday'=>"", 'userId' => 4);
+        $fbArray[] = array('firstName' => "NikO", "fbId"=> "24", 'lastName' => "Velinov", 'birthday'=>"1992-12-3", 'userId' => 4);
+        $fbArray[] = array('firstName' => "Lidia", "fbId"=> "25", 'lastName' => "Dimitrova", 'birthday'=>"1992-12-3", 'userId' => 4);
+        $fbArray[] = array('firstName' => "Rosen", "fbId"=> "26", 'lastName' => "Dimitrov", 'birthday'=>"1968-10-3", 'userId' => 4);
+        $fbArray[] = array('firstName' => "I.", "fbId"=> "27", 'lastName' => "Alexandrova", 'birthday'=>"1992-12-3", 'userId' => 4);
+        
+        
+        $a = $user->diffFriends($testFriends, $fbArray);
+        var_dump($a);*/
+        echo test;
     }
-    //TODO
+    
     public function setFriends() {
         $fbId = trim(App::$requestBody['fbId']);
         $newFriendsList = App::$requestBody['friendsList'];
-        
+        $validator = new \Validator();
         if(!$validator->validateFbId($fbId)) {
             throw new \Exception('No facebook id!', 400);
         }
@@ -79,11 +97,17 @@ class Controller {
         if(!is_array($newFriendsList)) {
             throw new \Exception('Invalid friends list!', 400);
         }
-        die('PROCEDURE');
         $friends = $user->getFriends($userId);
-        $diffFriends = $user->diffFriends($friends, $newFriendsList);
-        $user->addFriends($userId, $diffFriends);
-        //$user->addFriends($userId, $friendsList);
+        if(!empty($friends)) {
+            $newFriendsList = $user->diffFriends($friends, $newFriendsList);
+        }
+        if($user->addFriends($userId, $newFriendsList)) {
+            App::response(
+                array(
+                    'added' => true,
+                    'msg'=>'Changes were successfull added!'
+                    ), 201);
+        }
     }
     
     public function getFriends() {
