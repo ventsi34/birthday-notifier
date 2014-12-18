@@ -61,12 +61,17 @@ class User {
                     $firstName = addslashes($value['firstName']);
                     $lastName = addslashes($value['lastName']);
                     $birthday = addslashes($value['birthday']);
+                    if(empty($value['groupId'])) {
+                        $value['groupId'] = 1;
+                    }
+                    $groupId = (int)$value['groupId'];
                     $validator = new \Validator();
-                    if(!$validator->validateName($firstName) || !$validator->validateName($lastName)) {
+                    if(!$validator->validateName($firstName) ||
+                            !$validator->validateName($lastName)) {
                         continue;
                     }
-                    $query = App::$db->prepare('REPLACE INTO `friends`(`fb_id`, `first_name`, `last_name`, `birthday`, `user_id`) '
-                            . 'VALUES ("'.$fbId.'", "'. $firstName .'", "'. $lastName .'", "'. $birthday .'", "'. (int)$userId .'")');
+                    $query = App::$db->prepare('REPLACE INTO `friends`(`fb_id`, `first_name`, `last_name`, `birthday`, `group_id`, `user_id`) '
+                            . 'VALUES ("'.$fbId.'", "'. $firstName .'", "'. $lastName .'", "'. $birthday .'", "'.$groupId.'","'. (int)$userId .'")');
                     $query->execute();
                 }
             App::$db->commit();
@@ -107,7 +112,7 @@ class User {
     public function setFriendToGroup($friendId, $groupId) {
         $query = App::$db->prepare('UPDATE `friends` '
                 . 'SET `group_id`="'.(int)$groupId.'" '
-                . 'WHERE `friend_id` = "'.(int)$friendId.'"');
+                . 'WHERE `fb_id` = "'.$friendId.'"');
         $rs = $query->execute();
         if (!$rs) {
             return FALSE;
@@ -119,7 +124,7 @@ class User {
         $query = App::$db->query('SELECT COUNT(*) as `cnt` '
                 . 'FROM `friends` '
                 . 'WHERE '
-                    . '`friend_id` = "'.(int)$friendId.'" '
+                    . '`fb_id` = "'.addslashes($friendId).'" '
                     . 'AND `user_id` = "'.(int)$userId.'" ');
         $query->setFetchMode(PDO::FETCH_ASSOC);
         $result = $query->fetch();
@@ -146,7 +151,7 @@ class User {
         $different = array();
         foreach ($newFriends as $newFriend) {
             $flag = false;
-            $nameFlag = false;
+            $isExist = false;
             foreach ($oldFriends as $oldFriend) {
                 if($oldFriend['fb_id'] == $newFriend['fbId']) {
                     $flag = true;
@@ -154,9 +159,15 @@ class User {
                             $oldFriend['last_name'] != $newFriend['lastName'] ||
                             $oldFriend['birthday'] != $newFriend['birthday']) {
                         $flag = false;
+                        $isExist = true;
                     }
                     break;
                 }
+            }
+            if($isExist) {
+                $friend = new Friends();
+                $friendGroup = $friend->getFriendGroupByFbId($newFriend['fbId']);
+                $newFriend['groupId'] = $friendGroup;
             }
             if(!$flag) {
                 $different[] = $newFriend;

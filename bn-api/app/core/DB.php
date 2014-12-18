@@ -13,6 +13,7 @@ class DB {
         try {
             $DBH = new \PDO("mysql:host=".__DB_HOST__.";dbname=".__DB_NAME__.";charset=utf8", __DB_USERNAME__, __DB_PASSWORD__);
             $DBH->setAttribute( \PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION );
+            $DBH->exec("set names utf8");
             $this->db = $DBH;
         } catch(\PDOException $e) {
             header('Content-Type: application/json');

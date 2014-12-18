@@ -79,7 +79,7 @@ class Controller {
         
         $a = $user->diffFriends($testFriends, $fbArray);
         var_dump($a);*/
-        echo test;
+        echo 'test page';
     }
     
     public function setFriends() {
@@ -128,7 +128,7 @@ class Controller {
     
     public function updateGroup() {
         $fbId = App::$requestBody['fbId'];
-        $friendId = (int)App::$requestBody['friendId'];
+        $friendId = App::$requestBody['friendFbId'];
         $groupId = (int)App::$requestBody['groupId'];
         $validator = new \Validator();
         if(!$validator->validateFbId($fbId)) {
