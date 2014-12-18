@@ -12,6 +12,7 @@ class App {
     public static $requestBody = NULL;
 
     public function __construct() {
+        $this->logErrors();
         if(!empty($_GET['action'])){
             $this->readParams();
             $method = $_SERVER['REQUEST_METHOD'];
@@ -106,7 +107,26 @@ class App {
             }
         });
     }
-    
+    /**
+    *   Error reporting for developers or in log file
+    */
+    private function logErrors() {
+        if (DEVELOPMENT_ENVIRONMENT) {
+            error_reporting(E_ALL);
+            ini_set('display_errors','On');
+        } else {
+            error_reporting(E_ALL);
+            ini_set('display_errors','Off');
+            ini_set('log_errors', 'On');
+            if(!is_dir(__ROOT__ . DS . __ERROR_LOG_PATH__)) {
+                mkdir(__ROOT__ . DS . __ERROR_LOG_PATH__, 0777, true);
+            }
+            if(!file_exists(__ROOT__ . DS . __ERROR_LOG_PATH__ . DS . __ERROR_LOG_FILE__)) {
+                fopen(__ROOT__ . DS . __ERROR_LOG_PATH__ . DS . __ERROR_LOG_FILE__, "");
+            }
+            ini_set('error_log', __ROOT__ . DS . __ERROR_LOG_PATH__ . DS . __ERROR_LOG_FILE__);
+        }
+    }
     /**
      * Read url params
      */
